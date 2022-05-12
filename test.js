@@ -8,7 +8,7 @@ const {
 const assert = require('assert');
 
 const input  = '(add 2 (subtract 4 2))';
-const output = 'add(2, subtract(4, 2));';
+const output = 'add(3, subtract(4, 2));';
 
 const tokens = [
   { type: 'paren',  value: '('        },
